@@ -1,0 +1,241 @@
+# Main
+vendor
+.idea
+.env
+/composer.phar
+
+
+# Database connection files
+/config/database.php
+
+# Tests and trashes
+
+/tests/Application/Actions/User/ListUserActionTest.php
+/tests/Application/Actions/User/ViewUserActionTest.php
+/tests/bootstrap.php
+/tests/Domain/User/UserTest.php
+/tests/Infrastructure/Persistence/User/InMemoryUserRepositoryTest.php
+/tests/TestCase.php
+/src/Application/
+/src/Domain/
+/src/Infrastructure/
+/src/connection.php
+/src/dependencies.php
+/src/middleware.php
+/src/repositories.php
+/src/routes.php
+/src/settings.php
+/src/views.php
+
+
+
+# Created by .ignore support plugin (hsz.mobi)
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/public/.editorconfig
+/public/.gitignore
+/public/assets/.gitkeep
+/public/js/chunks/0.js
+/public/assets/img/avatars/1.jpg
+/public/js/chunks/1.js
+/public/js/chunks/1.js.LICENSE.txt
+/public/assets/img/avatars/2.jpg
+/public/js/chunks/2.js
+/public/js/chunks/2.js.LICENSE.txt
+/public/assets/img/avatars/3.jpg
+/public/js/chunks/3.js
+/resources/images/3c2a8f7922191cc1.jpg
+/public/assets/img/avatars/4.jpg
+/public/js/chunks/4.js
+/public/js/chunks/4.js.LICENSE.txt
+/resources/images/4c5ce637d840872f.jpg
+/resources/images/4e1a62ffd63e7a5d.jpg
+/public/assets/img/avatars/5.jpg
+/public/js/chunks/5.js
+/public/js/chunks/5.js.LICENSE.txt
+/public/assets/img/avatars/6.jpg
+/public/js/chunks/6.js
+/public/js/chunks/6.js.LICENSE.txt
+/public/assets/img/avatars/7.jpg
+/public/js/chunks/7.js
+/public/js/chunks/7.js.LICENSE.txt
+/public/assets/img/avatars/8.jpg
+/public/js/chunks/8.js
+/public/js/chunks/8.js.LICENSE.txt
+/public/js/chunks/9.js
+/public/js/chunks/9.js.LICENSE.txt
+/public/js/chunks/10.js
+/public/js/chunks/11.js
+/public/js/chunks/12.js
+/public/js/chunks/12.js.LICENSE.txt
+/public/js/chunks/13.js
+/public/js/chunks/14.js
+/public/js/chunks/15.js
+/public/js/chunks/16.js
+/public/js/chunks/17.js
+/public/js/chunks/17.js.LICENSE.txt
+/public/js/chunks/18.js
+/public/js/chunks/19.js
+/public/js/chunks/20.js
+/public/js/chunks/21.js
+/public/js/chunks/22.js
+/public/js/chunks/22.js.LICENSE.txt
+/public/js/chunks/23.js
+/public/js/chunks/24.js
+/public/js/chunks/25.js
+/public/js/chunks/26.js
+/public/js/chunks/27.js
+/public/js/chunks/28.js
+/public/js/chunks/29.js
+/public/js/chunks/30.js
+/public/js/chunks/31.js
+/public/js/chunks/32.js
+/public/js/chunks/33.js
+/public/js/chunks/34.js
+/public/js/chunks/35.js
+/public/js/chunks/36.js
+/public/js/chunks/37.js
+/public/js/chunks/38.js
+/public/js/chunks/39.js
+/public/js/chunks/40.js
+/public/js/chunks/41.js
+/public/js/chunks/42.js
+/public/js/chunks/43.js
+/public/js/chunks/44.js
+/public/js/chunks/45.js
+/public/js/chunks/46.js
+/public/js/chunks/47.js
+/public/js/chunks/48.js
+/public/js/chunks/49.js
+/public/js/chunks/50.js
+/public/js/chunks/51.js
+/public/js/chunks/52.js
+/public/js/chunks/53.js
+/public/js/chunks/53.js.LICENSE.txt
+/public/js/chunks/54.js
+/public/js/chunks/55.js
+/public/js/chunks/56.js
+/public/js/chunks/57.js
+/public/js/chunks/58.js
+/public/js/chunks/59.js
+/public/js/chunks/60.js
+/public/js/chunks/61.js
+/public/js/chunks/62.js
+/public/js/chunks/63.js
+/public/js/chunks/64.js
+/public/js/chunks/65.js
+/public/js/chunks/66.js
+/public/js/chunks/67.js
+/public/js/chunks/68.js
+/public/js/chunks/69.js
+/public/css/app.css
+/public/js/app.js
+/public/js/app.js.LICENSE.txt
+/resources/images/bbfe28ce428ce57b.jpg
+/CHANGELOG.md
+/public/CONTRIBUTING.md
+/public/CRA.md
+/resources/images/d0188a18f21e80db.jpg
+/public/favicon.ico
+/public/assets/img/favicon.png
+/public/css/index.html
+/public/LICENSE
+/public/images/logo.svg
+/src/assets/img/brand/logo.svg
+/public/README.md
+/public/images/sygnet.svg
+/src/assets/img/brand/sygnet.svg
+!/build/js/chunks/
+!/public/js/chunks/
