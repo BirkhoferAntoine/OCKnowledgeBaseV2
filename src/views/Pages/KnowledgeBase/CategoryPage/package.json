@@ -1,0 +1,6 @@
+{
+  "name": "categorypage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "CategoryPage.js"
+}
