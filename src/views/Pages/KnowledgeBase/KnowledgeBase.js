@@ -125,7 +125,7 @@ class KnowledgeBase extends Component {
           
           return (
               <div className="app flex-row align-items-center">
-                  <Container className="m-auto">
+                  <Container className="m-auto main-container">
                       <div className="animated fadeIn">
                           {
                               homeTabs

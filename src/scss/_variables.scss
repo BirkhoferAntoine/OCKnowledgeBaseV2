@@ -54,6 +54,10 @@
   display: block !important;
 }
 
+.main-container {
+    padding-bottom: 60px;
+}
+
 @media all and (max-width: 1023px) {
 
   .app-header {
@@ -92,5 +96,14 @@
   .carousel-caption h3 {
     font-size: 1.10rem !important;
   }
+
+  .homeTabsBody {
+    padding: 0 !important;
+  }
+
+  .container-fluid {
+    padding: 0 20px !important;
+  }
+
 
 }

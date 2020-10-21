@@ -66,7 +66,7 @@ class HomeTabs extends Component {
                                 <CardHeader className="d-flex no-wrap justify-content-center">
                                     <h3 className="categoryHeader">Bienvenue sur OCKnowledgeBase!</h3>
                                 </CardHeader>
-                                <CardBody>
+                                <CardBody className='homeTabsBody'>
                                     <Nav tabs className="no-wrap flex-row">
                                         <NavItem>
                                             <NavLink
